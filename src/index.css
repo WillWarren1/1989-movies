@@ -9,4 +9,83 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url('./images/synthwave2.jpg');
+  background-size: contain;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(211, 26, 20, 0.75);
+
+  height: 14rem;
+  color: whitesmoke;
+  margin-top: 0rem;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  width: 15rem;
+  margin: 1rem 5rem 1rem 2.75rem;
+}
+
+h2 {
+  text-align: center;
+  background-color: rgba(211, 26, 20, 0.65);
+  border-radius: 70%;
+  padding: 1.5rem;
+  color: whitesmoke;
+}
+
+figcaption {
+  text-align: center;
+  background-color: rgba(20, 26, 211, 0.75);
+  color: whitesmoke;
+  padding: 0.75rem;
+  border-radius: 10px;
+}
+
+@media (min-width: 450px) {
+  img {
+    width: 15rem;
+    margin: 1rem 32% 1rem 20%;
+  }
+}
+
+@media (min-width: 500px) {
+  img {
+    width: 15rem;
+    margin: 1rem 32% 1rem 32%;
+  }
+}
+
+@media (min-width: 600px) {
+  img {
+    width: 15rem;
+    margin: 1rem 32% 1rem 36%;
+  }
+}
+@media (min-width: 700px) {
+  img {
+    width: 15rem;
+    margin: 1rem 32% 1rem 38%;
+  }
+}
+@media (min-width: 800px) {
+  img {
+    width: 15rem;
+    margin: 1rem 32% 1rem 41%;
+  }
 }
